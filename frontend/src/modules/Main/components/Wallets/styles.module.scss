@@ -1,0 +1,37 @@
+:local {
+  .root {
+    width: 100%;
+  }
+
+  .table {
+    min-width: 650px;
+    background-color: #3f51b5;
+  }
+
+  .cell {
+    color: #fff;
+    margin-left: 10px;
+  }
+
+  .card {
+    min-width: 900px;
+  }
+
+  .error {
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .cardRoot {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
